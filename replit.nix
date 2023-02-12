@@ -1,8 +1,8 @@
 { pkgs }: {
     deps = [
-        pkgs.iputils
-        pkgs.iproute2
-        pkgs.htop
+        pkgs.qrencode.bin
+        pkgs.jq.bin
+        pkgs.busybox
         pkgs.bashInteractive
         pkgs.man
     ];
